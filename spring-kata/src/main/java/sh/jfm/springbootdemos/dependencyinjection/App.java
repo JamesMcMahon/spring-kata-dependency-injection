@@ -5,7 +5,7 @@ package sh.jfm.springbootdemos.dependencyinjection;
 
 public class App {
     public String getGreeting() {
-        return "Hello World!";
+        return "Hello Spring World!";
     }
 
     public static void main(String[] args) {
