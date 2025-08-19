@@ -3,12 +3,19 @@
  */
 package sh.jfm.springbootdemos.dependencyinjection.springbase;
 
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
 public class App {
+    private final GreetingService greetingService;
+
+    public App() {
+        this(new GreetingService());
+    }
+
+    public App(GreetingService greetingService) {
+        this.greetingService = greetingService;
+    }
+
     public String getGreeting() {
-        return "Hello Spring World!";
+        return greetingService.greet("Spring World");
     }
 
     public static void main(String[] args) {

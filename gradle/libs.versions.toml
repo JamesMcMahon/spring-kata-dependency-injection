@@ -3,8 +3,6 @@
 
 [versions]
 junit-jupiter = "5.12.1"
-spring-boot = "3.5.4"
 
 [libraries]
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
-spring-boot = { module = "org.springframework.boot:spring-boot-starter", version.ref = "spring-boot" }
