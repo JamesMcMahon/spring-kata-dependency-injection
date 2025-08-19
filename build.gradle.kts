@@ -17,7 +17,7 @@ repositories {
 
 dependencies {
     // Use JUnit Jupiter for testing.
-    testImplementation(libs.junit.jupiter)
+    testImplementation("org.junit.jupiter:junit-jupiter:5.12.1")
     testImplementation("org.springframework:spring-test:6.2.10")
 
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
