@@ -4,12 +4,22 @@
 package sh.jfm.springbootdemos.dependencyinjection.springbase;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
+@ExtendWith(SpringExtension.class)
+@ContextConfiguration(classes = AppConfig.class)
 class AppTest {
+
+    @Autowired
+    private GreetingService greetingService;
+
     @Test void appHasAGreeting() {
-        App classUnderTest = new App();
+        App classUnderTest = new App(greetingService);
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
     }
 }
