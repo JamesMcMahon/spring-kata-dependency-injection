@@ -18,12 +18,12 @@ repositories {
 dependencies {
     // Use JUnit Jupiter for testing.
     testImplementation(libs.junit.jupiter)
-    testImplementation("org.springframework:spring-test:6.2.9")
+    testImplementation("org.springframework:spring-test:6.2.10")
 
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
     // This dependency is used by the application.
-    implementation("org.springframework:spring-context:6.2.9")
+    implementation("org.springframework:spring-context:6.2.10")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
