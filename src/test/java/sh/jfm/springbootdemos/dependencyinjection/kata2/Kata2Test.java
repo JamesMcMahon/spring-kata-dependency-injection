@@ -15,8 +15,16 @@ class Kata2Test {
     @Autowired
     private CoffeeMaker coffeeMaker;
 
+    @Autowired
+    private IceCreamMaker iceCreamMaker;
+
     @Test
-    void mochaIsInjectedWithSpring() {
+    void mochaCoffeeIsInjectedWithSpring() {
         assertEquals("Brewing coffee with Mocha.", coffeeMaker.brew());
+    }
+
+    @Test
+    void mochaIceCreamIsInjectedWithSpring() {
+        assertEquals("Making ice cream with Mocha.", iceCreamMaker.make());
     }
 }
