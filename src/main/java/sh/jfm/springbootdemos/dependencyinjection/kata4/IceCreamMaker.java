@@ -1,0 +1,18 @@
+package sh.jfm.springbootdemos.dependencyinjection.kata4;
+
+import org.springframework.stereotype.Component;
+
+@SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
+@Component
+public class IceCreamMaker {
+
+    private final Flavor flavor;
+
+    public IceCreamMaker(Flavor flavor) {
+        this.flavor = flavor;
+    }
+
+    public String make() {
+        return "Making ice cream with %s.".formatted(flavor.name());
+    }
+}
