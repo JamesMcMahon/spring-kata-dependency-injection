@@ -2,7 +2,6 @@ package sh.jfm.springbootdemos.dependencyinjection.kata4;
 
 import org.springframework.stereotype.Component;
 
-@SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
 @Component
 public class IceCreamMaker {
 

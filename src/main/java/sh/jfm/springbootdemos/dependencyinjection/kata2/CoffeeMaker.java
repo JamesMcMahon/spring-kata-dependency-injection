@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 public class CoffeeMaker {
     private final Flavor flavor;
 
-    @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
     public CoffeeMaker(Flavor flavor) {
         this.flavor = flavor;
     }

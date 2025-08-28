@@ -55,7 +55,6 @@ public class Kata1 {
         }
     }
 
-    @SuppressWarnings("unused")
     public static class FrenchVanilla implements Flavor {
         @Override
         public String name() {

@@ -6,7 +6,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class Kata3Config {
 
-    @SuppressWarnings("unused")
     public Flavor flavor() {
         return new Mocha();
     }
