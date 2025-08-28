@@ -23,7 +23,7 @@ dependencies {
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
     // This dependency is used by the application.
-    implementation("org.springframework:spring-context:6.2.10")
+    implementation("org.springframework.boot:spring-boot-autoconfigure:3.5.5")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
