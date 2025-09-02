@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class Kata3Config {
+public class ManualSpringConfig {
 
     public Flavor flavor() {
         return new Mocha();

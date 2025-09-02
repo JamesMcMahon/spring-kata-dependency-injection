@@ -9,8 +9,8 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = Kata3Config.class)
-class Kata3Test {
+@ContextConfiguration(classes = ManualSpringConfig.class)
+class N02ManualSpringDependencyInjectionTest {
 
     @Autowired
     private CoffeeMaker coffeeMaker;

@@ -3,9 +3,9 @@ package sh.jfm.springbootdemos.dependencyinjection.n00_di_basics;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static sh.jfm.springbootdemos.dependencyinjection.n00_di_basics.Kata1.*;
+import static sh.jfm.springbootdemos.dependencyinjection.n00_di_basics.n00Start.*;
 
-class Kata1Test {
+class N00StartTest {
 
     @Test
     void testDependencyInjectionCreatesFlexibility() {

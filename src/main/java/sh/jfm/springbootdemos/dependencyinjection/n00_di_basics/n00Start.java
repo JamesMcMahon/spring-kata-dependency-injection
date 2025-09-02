@@ -1,6 +1,6 @@
 package sh.jfm.springbootdemos.dependencyinjection.n00_di_basics;
 
-public class Kata1 {
+public class n00Start {
 
     public static CoffeeMaker buildCoffeeMaker() {
         return new CoffeeMakerNoInjection();

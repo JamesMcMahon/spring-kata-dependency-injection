@@ -12,11 +12,11 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @ExtendWith(SpringExtension.class)
-public class Kata5Test {
+public class N04ConditionalBeansTest {
 
     @Nested
     @TestPropertySource(properties = "vegetarian=true")
-    @ContextConfiguration(classes = Kata5Config.class)
+    @ContextConfiguration(classes = n04Config.class)
     class MushroomTest {
 
         @Autowired
@@ -30,7 +30,7 @@ public class Kata5Test {
 
     @Nested
     @TestPropertySource(properties = "vegetarian=false")
-    @ContextConfiguration(classes = Kata5Config.class)
+    @ContextConfiguration(classes = n04Config.class)
     class PepperoniTest {
 
         @Autowired

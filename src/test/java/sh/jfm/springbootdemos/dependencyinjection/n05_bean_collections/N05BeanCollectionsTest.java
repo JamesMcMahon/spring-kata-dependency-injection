@@ -9,8 +9,8 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = Kata6Config.class)
-public class Kata6Test {
+@ContextConfiguration(classes = n05Config.class)
+public class N05BeanCollectionsTest {
 
     @Autowired
     private Pizza pizza;

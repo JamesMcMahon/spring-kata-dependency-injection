@@ -9,8 +9,8 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = Kata4Config.class)
-class Kata4Test {
+@ContextConfiguration(classes = n03Config.class)
+class N03MultipleBeansTest {
 
     @Autowired
     private IceCreamMaker iceCreamMaker;
