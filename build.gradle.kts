@@ -33,11 +33,6 @@ java {
     }
 }
 
-application {
-    // Define the main class for the application.
-    mainClass = "sh.jfm.springbootdemos.dependencyinjection"
-}
-
 tasks.named<Test>("test") {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
