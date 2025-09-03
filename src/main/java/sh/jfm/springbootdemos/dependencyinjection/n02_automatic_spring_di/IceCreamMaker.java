@@ -6,6 +6,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class IceCreamMaker {
 
+    /// The use of [Autowired] here, called field injection, is not recommended. Using a constructor to take in the
+    /// field gives you and any users of your code much more flexibility and is best practice.
+    ///
+    /// Still worth knowing about this approach as you will encounter this in the wild with existing Spring code.
     @Autowired
     private Flavor flavor;
 

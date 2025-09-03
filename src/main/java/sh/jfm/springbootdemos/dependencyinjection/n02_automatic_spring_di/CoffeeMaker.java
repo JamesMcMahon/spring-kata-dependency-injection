@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 public class CoffeeMaker {
     private final Flavor flavor;
 
+    /// Taking the field in through the constructor is the preferred way to inject dependencies.
     public CoffeeMaker(Flavor flavor) {
         this.flavor = flavor;
     }
