@@ -7,7 +7,7 @@ Each exercise is self-contained and contains a failing test that you will need t
 
 ## How to interact with the exercises
 
-1. Run the test suite, you should see all the tests fail initially.
+1. Run the test suite. You should see all the tests fail initially.
 2. In order, go through each exercise and see if you can make the test pass.
 
 Each exercise has a Javadoc comment that will give you context. 
