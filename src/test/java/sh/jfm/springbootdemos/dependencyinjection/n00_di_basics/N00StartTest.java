@@ -5,6 +5,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static sh.jfm.springbootdemos.dependencyinjection.n00_di_basics.n00Start.*;
 
+/// Intro to [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection)
+///
+/// The core concept of dependency injection is straightforward, but it pays dividends in larger projects.
+/// Even in this very simple example, you can see how it allows you to the flexibility to reuse code.
+///
+/// I recommend also reading about [Dependency inversion principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
 class N00StartTest {
 
     @Test

@@ -10,6 +10,6 @@ public class n00Start {
     }
 
     public static CoffeeMaker buildCoffeeMakerFrenchVanilla() {
-        return new CoffeeMakerWithInjection(new Mocha());
+        throw new UnsupportedOperationException("Not yet implemented");
     }
 }
