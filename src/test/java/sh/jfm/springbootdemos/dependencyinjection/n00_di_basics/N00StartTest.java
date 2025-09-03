@@ -11,6 +11,9 @@ import static sh.jfm.springbootdemos.dependencyinjection.n00_di_basics.n00Start.
 /// Even in this very simple example, you can see how it allows you to the flexibility to reuse code.
 ///
 /// I recommend also reading about [Dependency inversion principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
+///
+/// This test will fail initially. Update just the implementation code (ie, code being tested in the `main` directory),
+/// to make the test pass.
 class N00StartTest {
 
     @Test
