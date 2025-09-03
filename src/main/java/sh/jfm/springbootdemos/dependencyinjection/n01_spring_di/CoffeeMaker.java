@@ -1,8 +1,5 @@
 package sh.jfm.springbootdemos.dependencyinjection.n01_spring_di;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class CoffeeMaker {
     private final Flavor flavor;
 

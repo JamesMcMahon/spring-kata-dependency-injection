@@ -1,4 +1,4 @@
-package sh.jfm.springbootdemos.dependencyinjection.n02_manual_spring_di;
+package sh.jfm.springbootdemos.dependencyinjection.n02_automatic_spring_di;
 
 public class Mocha implements Flavor {
     @Override

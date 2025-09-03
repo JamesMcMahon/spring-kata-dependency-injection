@@ -9,22 +9,14 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = AutomaticSpringConfig.class)
+@ContextConfiguration(classes = ManualSpringConfig.class)
 class N01SpringDependencyInjectionTest {
 
     @Autowired
     private CoffeeMaker coffeeMaker;
 
-    @Autowired
-    private IceCreamMaker iceCreamMaker;
-
     @Test
     void mochaCoffeeIsInjectedWithSpring() {
         assertEquals("Brewing coffee with Mocha.", coffeeMaker.brew());
-    }
-
-    @Test
-    void mochaIceCreamIsInjectedWithSpring() {
-        assertEquals("Making ice cream with Mocha.", iceCreamMaker.make());
     }
 }

@@ -1,4 +1,4 @@
-package sh.jfm.springbootdemos.dependencyinjection.n02_manual_spring_di;
+package sh.jfm.springbootdemos.dependencyinjection.n01_spring_di;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

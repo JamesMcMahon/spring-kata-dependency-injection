@@ -1,4 +1,4 @@
-package sh.jfm.springbootdemos.dependencyinjection.n01_spring_di;
+package sh.jfm.springbootdemos.dependencyinjection.n02_automatic_spring_di;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
