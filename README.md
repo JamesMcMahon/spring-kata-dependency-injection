@@ -1,19 +1,15 @@
 # Spring Dependency Injection Katas
 
-This repository is WIP
+These Katas are a series of exercises to learn more about Dependency Injection and how Spring handles it. 
+Each exercise is self-contained and contains a failing test that you will need to get passing.
 
-# Kata 1
+*This repo is still heavily work in progress.*
 
-Dependency Injection basics, with no Spring
+## How to interact with the exercises
 
-# Kata 2
+1. Run the test suite, you should see all the tests fail initially.
+2. In order, go through each exercise and see if you can make the test pass.
 
-Spring Dependency Injection with autoconfiguration
+Each exercise has a Javadoc comment that will give you context. 
 
-# Kata 3
-
-Spring Dependency Injection with manual configuration
-
-# Kata 4
-
-Disambiguate between multiple beans of the same type
+Remember, don't change the tests - *that's cheating!* Make each test pass by changing only implementation code.
