@@ -11,6 +11,16 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+/// Run time configuration can affect dependency injection.
+/// Spring supports conditional beans through the [org.springframework.context.annotation.Conditional] annotation.
+///
+/// I've added Spring Boot as a dependency for this scenario because it adds a lot of out-of-the-box conditions, so you
+/// wouldn't need to write them yourself.
+///
+/// There are a few different ways to get this to pass. I'll challenge you to use two different conditions on the
+/// [Topping] classes to make the tests pass.
+///
+/// Remember that **both** tests should pass at the same time.
 @ExtendWith(SpringExtension.class)
 public class N05ConditionalBeansTest {
 
