@@ -1,4 +1,4 @@
-package sh.jfm.springbootdemos.dependencyinjection.n04_conditional_beans;
+package sh.jfm.springbootdemos.dependencyinjection.n05_conditional_beans;
 
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
@@ -12,11 +12,11 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @ExtendWith(SpringExtension.class)
-public class N04ConditionalBeansTest {
+public class N05ConditionalBeansTest {
 
     @Nested
     @TestPropertySource(properties = "vegetarian=true")
-    @ContextConfiguration(classes = n04Config.class)
+    @ContextConfiguration(classes = n05Config.class)
     class MushroomTest {
 
         @Autowired
@@ -30,7 +30,7 @@ public class N04ConditionalBeansTest {
 
     @Nested
     @TestPropertySource(properties = "vegetarian=false")
-    @ContextConfiguration(classes = n04Config.class)
+    @ContextConfiguration(classes = n05Config.class)
     class PepperoniTest {
 
         @Autowired

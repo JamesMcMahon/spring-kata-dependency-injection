@@ -1,4 +1,4 @@
-package sh.jfm.springbootdemos.dependencyinjection.n05_bean_collections;
+package sh.jfm.springbootdemos.dependencyinjection.n04_bean_collections;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -9,8 +9,8 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = n05Config.class)
-public class N05BeanCollectionsTest {
+@ContextConfiguration(classes = n04Config.class)
+public class N04BeanCollectionsTest {
 
     @Autowired
     private Pizza pizza;

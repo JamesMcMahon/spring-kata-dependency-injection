@@ -1,4 +1,4 @@
-package sh.jfm.springbootdemos.dependencyinjection.n04_conditional_beans;
+package sh.jfm.springbootdemos.dependencyinjection.n05_conditional_beans;
 
 import org.springframework.stereotype.Component;
 
