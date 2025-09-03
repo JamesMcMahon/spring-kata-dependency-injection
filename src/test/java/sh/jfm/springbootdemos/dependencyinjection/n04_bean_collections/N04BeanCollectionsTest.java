@@ -8,6 +8,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+/// Spring supports multiple beans being injected as a [java.util.Collection]
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = n04Config.class)
 public class N04BeanCollectionsTest {
