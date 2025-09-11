@@ -53,7 +53,3 @@ The IDE will delegate compiling and testing to Gradle automatically.
 
 This repository is still a work in progress.  
 If you find a typo, have a question, or want to add a new exercise, please open an issue or pull request.
-
----
-
-Happy learning ☕
