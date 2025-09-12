@@ -5,6 +5,6 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan(basePackages = "sh.jfm.springbootdemos.dependencyinjection.n04_bean_collections")
-public class n04Config {
+public class BeanCollectionsConfig {
 
 }

@@ -7,7 +7,8 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /// Spring's [Qualifier] annotation lets us choose between multiple candidate beans that share the same type.
 ///
@@ -18,7 +19,7 @@ import static org.junit.jupiter.api.Assertions.*;
 /// In this kata we create a [Berry] qualifier so that only *berry* flavors are injected into the
 /// [Blender].
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = n10Config.class)
+@ContextConfiguration(classes = CustomQualifierConfig.class)
 class N10CustomQualifierTest {
 
     @Autowired

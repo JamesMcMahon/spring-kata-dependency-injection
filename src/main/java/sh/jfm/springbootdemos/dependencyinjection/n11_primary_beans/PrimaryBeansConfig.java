@@ -5,5 +5,5 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan(basePackages = "sh.jfm.springbootdemos.dependencyinjection.n11_primary_beans")
-public class n11Config {
+public class PrimaryBeansConfig {
 }

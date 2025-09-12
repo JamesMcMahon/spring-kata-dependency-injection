@@ -5,6 +5,5 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan(basePackages = "sh.jfm.springbootdemos.dependencyinjection.n03_multiple_beans")
-public class n03Config {
-
+public class MultipleBeanConfig {
 }

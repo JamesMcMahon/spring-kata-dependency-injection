@@ -5,5 +5,5 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan(basePackages = "sh.jfm.springbootdemos.dependencyinjection.n10_custom_qualifier")
-public class n10Config {
+public class CustomQualifierConfig {
 }

@@ -26,7 +26,7 @@ public class N05ConditionalBeansTest {
 
     @Nested
     @TestPropertySource(properties = "vegetarian=true")
-    @ContextConfiguration(classes = n05Config.class)
+    @ContextConfiguration(classes = ConditionalBeansConfig.class)
     class MushroomTest {
 
         @Autowired
@@ -40,7 +40,7 @@ public class N05ConditionalBeansTest {
 
     @Nested
     @TestPropertySource(properties = "vegetarian=false")
-    @ContextConfiguration(classes = n05Config.class)
+    @ContextConfiguration(classes = ConditionalBeansConfig.class)
     class PepperoniTest {
 
         @Autowired

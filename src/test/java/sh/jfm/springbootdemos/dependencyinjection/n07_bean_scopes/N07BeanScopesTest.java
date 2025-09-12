@@ -23,7 +23,7 @@ import static org.junit.jupiter.api.Assertions.assertSame;
 /// In the case of our Coffee Shop, we want there to be a single Coffee Shop,
 /// but each Cup of coffee served should be unique.
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = n07Config.class)
+@ContextConfiguration(classes = BeanScopesConfig.class)
 class N07BeanScopesTest {
 
     @Autowired

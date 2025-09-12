@@ -20,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 /// is instantiated only after it is explicitly fetched from the
 /// [org.springframework.context.ApplicationContext].
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = n08Config.class)
+@ContextConfiguration(classes = LazyBeansConfig.class)
 class N08LazyBeansTest {
 
     @Autowired

@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 /// In this case there are more than one [Flavor] bean available, so we will have to be explicit about which one to use.
 /// This can be done with manual configuration but can also be solved under automatic configuration.
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = n03Config.class)
+@ContextConfiguration(classes = MultipleBeanConfig.class)
 class N03MultipleBeansTest {
 
     @Autowired

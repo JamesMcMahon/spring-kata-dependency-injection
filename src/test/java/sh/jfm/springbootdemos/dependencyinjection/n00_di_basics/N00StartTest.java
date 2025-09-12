@@ -3,7 +3,7 @@ package sh.jfm.springbootdemos.dependencyinjection.n00_di_basics;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static sh.jfm.springbootdemos.dependencyinjection.n00_di_basics.n00Start.*;
+import static sh.jfm.springbootdemos.dependencyinjection.n00_di_basics.Main.*;
 
 /// Intro to [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection)
 ///

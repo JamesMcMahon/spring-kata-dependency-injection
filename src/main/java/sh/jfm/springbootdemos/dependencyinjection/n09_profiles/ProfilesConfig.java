@@ -5,5 +5,5 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan(basePackages = "sh.jfm.springbootdemos.dependencyinjection.n09_profiles")
-public class n09Config {
+public class ProfilesConfig {
 }

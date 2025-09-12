@@ -32,7 +32,7 @@ class N09ProfilesTest {
     @Nested
     @ExtendWith(SpringExtension.class)
     @ActiveProfiles("dev")
-    @ContextConfiguration(classes = n09Config.class)
+    @ContextConfiguration(classes = ProfilesConfig.class)
     class DevProfileTest {
         @Autowired
         MessageService messageService;
@@ -46,7 +46,7 @@ class N09ProfilesTest {
     @Nested
     @ExtendWith(SpringExtension.class)
     @ActiveProfiles("prod")
-    @ContextConfiguration(classes = n09Config.class)
+    @ContextConfiguration(classes = ProfilesConfig.class)
     class ProdProfileTest {
         @Autowired
         MessageService messageService;
