@@ -17,10 +17,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class N04QualifiedBeansTest {
 
     @Autowired
-    private IceCreamMaker iceCreamMaker;
+    private StrawberryIceCreamMaker strawberryIceCreamMaker;
+
+    @Autowired
+    private VanillaIceCreamMaker vanillaIceCreamMaker;
 
     @Test
-    void strawberryIceCreamIsInjectedWithSpring() {
-        assertEquals("Making ice cream with Strawberry.", iceCreamMaker.make());
+    void iceCreamFlavorsIsInjectedWithSpring() {
+        assertEquals("Making ice cream with Strawberry.", strawberryIceCreamMaker.make());
+        assertEquals("Making ice cream with Vanilla.", vanillaIceCreamMaker.make());
     }
 }
