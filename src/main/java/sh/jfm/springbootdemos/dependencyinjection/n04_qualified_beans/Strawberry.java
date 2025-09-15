@@ -1,4 +1,4 @@
-package sh.jfm.springbootdemos.dependencyinjection.n04_multiple_beans;
+package sh.jfm.springbootdemos.dependencyinjection.n04_qualified_beans;
 
 import org.springframework.stereotype.Component;
 

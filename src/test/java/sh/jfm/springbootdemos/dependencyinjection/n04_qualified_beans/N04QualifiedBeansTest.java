@@ -1,4 +1,4 @@
-package sh.jfm.springbootdemos.dependencyinjection.n04_multiple_beans;
+package sh.jfm.springbootdemos.dependencyinjection.n04_qualified_beans;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -13,8 +13,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 /// Spring has the ability to select a specific bean using [org.springframework.beans.factory.annotation.Qualifier],
 /// which can help it work through some ambiguous situations.
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = MultipleBeanConfig.class)
-class N04MultipleBeansTest {
+@ContextConfiguration(classes = QualifiedBeansConfig.class)
+class N04QualifiedBeansTest {
 
     @Autowired
     private IceCreamMaker iceCreamMaker;
