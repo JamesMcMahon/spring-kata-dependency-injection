@@ -8,11 +8,10 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-/// Spring does a lot for you automatically, but in ambiguous situations the user will need to specify behavior more
-/// explicitly.
-///
-/// In this case there are more than one [Flavor] bean available, so we will have to be explicit about which one to use.
-/// This can be done with manual configuration but can also be solved under automatic configuration.
+/// In this kata there are more than one [Flavor] bean available, so we will have to be explicit about which one to use.
+/// This can be done with manual configuration, but in this case lets solve it while still using automatic configuration.
+/// Spring has the ability to select a specific bean using [org.springframework.beans.factory.annotation.Qualifier],
+/// which can help it work through some ambiguous situations.
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = MultipleBeanConfig.class)
 class N04MultipleBeansTest {
