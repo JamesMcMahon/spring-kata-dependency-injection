@@ -5,6 +5,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class Sweetener {
     public String name() {
-        return "Monk Fruit";
+        throw new UnsupportedOperationException("You will need to name this sweetener in order for the test to pass");
     }
 }
